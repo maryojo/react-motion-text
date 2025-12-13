@@ -20,11 +20,11 @@ function App() {
   const [glitchKey, setGlitchKey] = useState(0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 p-8">
+    <div className="min-h-screen bg-black p-8">
       <div className="max-w-6xl mx-auto space-y-12">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-6xl font-bold text-white mb-4">
+          <h1 className="text-6xl font-bold geom text-white mb-4">
             Animated Text Library
           </h1>
           <p className="text-xl text-purple-200">

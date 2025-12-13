@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&Geom:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
+
+
+@layer base {
+  body{
+  font-family: "DM Sans", sans-serif;
+  }
+}
+
+@layer components{
+    .geom {
+        font-family: "Geom", sans-serif;
+    }
+}
