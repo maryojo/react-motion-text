@@ -40,10 +40,10 @@ const TypewriterText = ({
   return (
     <div className={`inline-block ${className}`}>
       {displayText}
-      {cursor && currentIndex < text.length && (
+      {cursor && (
         <motion.span
           animate={{ opacity: [1, 0] }}
-          transition={{ duration: 0.5, ...(loop && { repeat: Infinity }) }}
+          transition={{ duration: 0.5, repeat: Infinity }}
           className="inline-block w-0.5 h-5 bg-current ml-1"
         />
       )}
